@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# filename:pysyntax.py
 
 print "hello python!"
 
