@@ -1,0 +1,15 @@
+#!/usr/bin/python
+
+print "hello python!"
+
+best_fruits = ('peach', 'mango', 'bird') # this is an identifier, it assigns the identity 'peach, apple, mango' to the variable 'best_fruits'
+
+print "what is one of the best fruits?"
+choice = raw_input('choose one\n')
+
+if choice in best_fruits: #here, each set of parenthases is close, it wouldn't work otherwise
+    print "yes"
+    print "that is a very good fruit" #this line is indented just as much as the last one, if not, it would generate an error
+else:
+    print "no"
+    print "that fruit is for dogs" #this line is also correctly indented
